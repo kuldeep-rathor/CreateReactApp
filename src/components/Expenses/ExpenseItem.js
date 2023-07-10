@@ -6,9 +6,9 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
-  console.group('ExpenseItem evaluated by react');
+  console.group("ExpenseItem evaluated by react");
   const clickHandler = () => {
-    setTitle('100$');
+    setTitle("100$");
     console.log(title);
   };
   return (
